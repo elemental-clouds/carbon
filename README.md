@@ -1,6 +1,6 @@
-# Carbon =
+# Carbon
 
-Elemental-clouds AWS credentialed class definitions 
+Elemental-clouds AWS credentialed class definitions
 
 ## Usage
 
