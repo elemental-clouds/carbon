@@ -16,6 +16,10 @@ import assert from 'assert';
 export class Credentialed {
   protected credentials?: CredentialProvider;
 
+  constructor(args: CredentialedClassArgs) {
+    this.initCredentials(args);
+  }
+
   /** sets the AWS credentials object from a role */
   protected usingAssumedRoleCredentials(input: {
     roleArn: AWSRoleArn;
